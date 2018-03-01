@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.2
+  - 2.3
+  - 2.4
+
+script:
+  - bundle install
+  # NOTE: This is just a working test
+  - bundle exec ruby main.rb --semaphore-num=2 --from-num=19000 --to-num=19010
