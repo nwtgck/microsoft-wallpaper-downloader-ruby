@@ -2,6 +2,8 @@
 
 A wallpaper downloader of beautiful images in Microsoft
 
+![demo1](demo_images/demo1.gif)
+
 ## Run
 
 ```
