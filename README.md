@@ -14,6 +14,18 @@ bundle exec ruby main.rb
 
 Then you will have wallpapers in `wallpapers` directory.
 
+## Options' Help
+
+Here is available options.
+
+```
+Usage: bundle exec ruby main.rb [options]
+        --outdir=DIR_PATH            Path of output directory (default: "wallpapers")
+        --semaphore-num=NUM          The number of semaphores for concurrent download (default: 10)
+        --from-num=NUM               From-image number (default: 19000)
+        --to-num=NUM                 To-image number (default: 19987)
+```
+
 ## Wallpaper Source
 
 Microsoft has very beautiful wallpapers here.  
