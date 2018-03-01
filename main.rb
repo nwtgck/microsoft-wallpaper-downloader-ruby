@@ -14,7 +14,7 @@ OptionParser.new do |opts|
     options[:outdir_path] = v
   end
 
-  opts.on("--semaphore-num=NUM", Integer, "The number of semaphores for concurrent download (default: #{options[:semaphore_num].inspect})") do |v|
+  opts.on("--semaphore-num=NUM", Integer, "Semaphore number for concurrent download (default: #{options[:semaphore_num].inspect})") do |v|
     options[:semaphore_num] = v
   end
 
