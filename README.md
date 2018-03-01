@@ -1,4 +1,5 @@
 # Wallpaper Downloader of Microsoft
+[![Build Status](https://travis-ci.org/nwtgck/microsoft-wallpaper-downloader-ruby.svg?branch=master)](https://travis-ci.org/nwtgck/microsoft-wallpaper-downloader-ruby)
 
 A wallpaper downloader of beautiful images in Microsoft
 
